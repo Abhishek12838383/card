@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    padding-left: 70px;
+    margin-top: 10px;
+    height: 30px;
+}
+.card{
+  
+    background-color: #171717;
+    width: 300px;
+    height: 320px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px;
+    border-radius: 10px;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.profile-img{
+    padding-left: 70px;
+}
+.profile-img img{
+    border-radius: 99px;
+}
+.profile-name{
+    padding-left: 70px;
+    display: flex;
+    gap: 10px;
+    color: #ababab;
+    font-size: 24px;
+}
+.number{
+    color: #D3DADA;
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.gender{
+  padding-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.genderr{
+    color: #ababab;
+    font-size: 20px;
+}
+.email{
+    color: #D3DADA;
+    background-color: black;
+    height: 30px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
